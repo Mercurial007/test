@@ -3,11 +3,11 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <servlet>
-   <servlet-name>HelloWorld</servlet-name>
-   <servlet-class>HelloWorld</servlet-class>
+   <servlet-name>DatabaseAccess</servlet-name>
+   <servlet-class>DatabaseAccess</servlet-class>
 </servlet>
-
+ 
 <servlet-mapping>
-   <servlet-name>HelloWorld</servlet-name>
-   <url-pattern>/HelloWorld</url-pattern>
+   <servlet-name>DatabaseAccess</servlet-name>
+   <url-pattern>/DatabaseAccess</url-pattern>
 </servlet-mapping>
