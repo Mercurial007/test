@@ -1,0 +1,5 @@
+FROM babu479/apache-tomcat
+COPY /root/java-web-project/java-web-project.war /
+ENTRYPOINT["java", "-jar", "/java-web-project.war"]
+
+

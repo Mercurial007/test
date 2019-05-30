@@ -1,0 +1,5 @@
+externalDatabase:
+  host: mysql_server_ip
+  user: wordpress_user
+  password: password
+  database: wordpress
