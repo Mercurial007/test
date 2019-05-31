@@ -18,4 +18,3 @@ Please refer dockerfile to deploy war into the image.
 ## Conclusion
 As VTX is not eabled in my laptop/desktop, i am unable to launch minikube tool. So that, I have implemented in kubernetes due to time constaint. If you want me to do it in minikube, i need couple of days to do it as i need to get it enabled form my IT service. 
 
-### Looking forward to your suggestion on my solution. 
