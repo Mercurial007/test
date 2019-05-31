@@ -10,10 +10,10 @@
 Please refer dockerfile to deploy war into the image.
 
 ### Step 3: Run the below command to build an image
-docker build -t your-image-id .
+      #docker build -t your-image-id .
 
 ### Step 4: Please refer pod.yaml to deploy pod in kubernetes
-kubectl create -f pod-service.yaml
+      #kubectl create -f pod-service.yaml
 
 ## Conclusion
 As VTX is not eabled in my laptop/desktop, i am unable to launch minikube tool. So that, I have implemented in kubernetes due to time constaint. If you want me to do it in minikube, i need couple of days to do it as i need to get it enabled form my IT service. 
