@@ -1,18 +1,20 @@
-# Run databases and microservices applications in Kubernetes 
+# Run database and application in minikube
 
 ## Process flow
 
-### Step 1:-  Created a Java web application by using servlet it will connect to our Database to fetch some table info from Database
- Note: Now we can call this servlet using #http://localhost:8080/DatabaseAccess it will display table info.
+### Step 1:-  Created a Python web application by using flask framework to connect to our Database to fetch info "Hello World" from MySQL Database
+ Note: Once you run the application you'll get the url like #http://localhost:5000 it will display the content inside the db table.
  
-### Step 2:- By Automation build tool maven, we do generate package by using 
-      #mvn install
-Please refer dockerfile to deploy war into the image.
+### Step 2:- Created a docker file which contains serveral commands to install required plugins and, made an entry point to python application code. I.e like a monolithic application as this API call will connect to DB and provide the result.
+
+ Note: Please refer dockerfile to deploy application into the image.
 
 ### Step 3: Run the below command to build an image
       #docker build -t your-image-id .
 
-### Step 4: Please refer pod.yaml to deploy pod in kubernetes
+### Step 4: If you want totest it locally, Please 
+      #docker run --name flaskapp2 -v$PWD:/app -p5000:5000 test:latest
+### Step 5: Please refer pod.yaml to deploy pod in kubernetes
       #kubectl create -f pod-service.yaml
 
 ## Conclusion
