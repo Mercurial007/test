@@ -1,5 +1,3 @@
-1. flask
-
-2. Mysql
-
-3. flask_mysqldb
+flask
+Mysql
+flask_mysqldb
